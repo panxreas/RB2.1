@@ -56,6 +56,44 @@ p {
   z-index: 1;
 }
 
+.nav-dmenu {
+  display: inline-block;
+}
+
+.drop-menu {
+  display: none;
+  position: absolute;
+}
+
+.nav-dmenu:hover .drop-menu {
+  padding-left: 15px;
+  transition-duration: 1s;
+  display: block;
+  text-align: center;
+}
+
+.sub-b {
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-b a {
+
+  color: white;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.sub-b:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
 .navbuttons {
   background-color: #4ef0f342;
   font-family: "Orbitron", sans-serif;
@@ -65,7 +103,8 @@ p {
   width: 200px;
   border-style: solid;
   border-width: 1px;
-  border-radius: 100px 0px 100px 0px;
+  border-radius: 100px 100px 0px 0px;
+  margin: 15px;
 }
 
 .navbuttons:hover {
