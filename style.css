@@ -201,3 +201,31 @@ p {
   border: 2px solid black;
   box-sizing: border-box;
 }
+
+
+.galery {
+  max-width: 1000px;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-g {
+  display: flex;
+  justify-content: center;
+}
+
+.image-g {
+  min-width: 300px;
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10%;
+  border-color: #fc00ff;
+  margin: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
+
+}
