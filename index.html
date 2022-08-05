@@ -16,6 +16,7 @@
 <body>
     <div class="container">
         <header>
+            <!-- logo box -->
             <div class="logo">
                 <img class="logoimg" src="./images/headerLogo.png" alt="logo">
             </div>
@@ -73,6 +74,7 @@
         </header>
 
         <main>
+            <!-- title -->
             <div class="herobox1">
                 <h1 class="mainTitle">Digital Art Studio</h1>
                 <p>
@@ -82,6 +84,8 @@
                     We help visualize, create or designing ideas and bring the to a graphical experience using various technologies and teechniques.
                 </p>
             </div>
+
+            <!-- renderbender -->
             <div class="herobox2">
                 <div class="imagebox">
                     <img class="bender" src="./images/background.png" alt="da bender">
@@ -125,7 +129,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, repellendus voluptates.</p>
             </div>
             <div class="tbox">
-                <h2>-JOE</h2>
+                <h2>-LAU</h2>
                 <hr>
                 <p>i dont know que onda .Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, repellendus voluptates.</p>
             </div>
@@ -137,12 +141,36 @@
         </div>
 
         <!-- email contact -->
-
         <form id="mail" action="mail.php" method="post">
 
-            <input type="text" name="name" id="name">
-            <input type="email" name="email" id="email">
-            <input type="submit" value="SEND">
+            <div class="input-wrapp">
+                <label for="name">First name</label>
+                <input type="text" name="name" id="name" placeholder="First Name">
+            </div>
+            
+
+            <div class="input-wrapp">
+                <label for="email">Your e-mail</label>
+                <input type="email" name="email" id="email" placeholder="e-mail@example.com">
+            </div>
+            
+            <div class="input-wrapp">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input-wrapp">
+                <input type="checkbox" name="email-sub" id="email-sub" value="Subscribed" checked>
+                <label for="email-sub">Subscribe to Newsletter</label>
+            </div>
+
+            <div class="input-wrapp">
+                <input type="radio" name="job-info" id="job" value="job">
+                <label for="job">Job request</label>
+                <input type="radio" name="job-info" id="info" value="info">
+                <label for="job">Info. request</label>
+            </div>
+
+            <input class="sub-butt" type="submit" value="SEND">
 
         </form>
 
