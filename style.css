@@ -289,6 +289,48 @@ p {
 
 .sub-butt {
   margin-top: 20px;
-  border-radius: 50px;
   margin-bottom: 50px;
+  background-color: #4ef0f342;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 40px;
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 0px 100px 100px;
+  margin: 15px;
 }
+
+form {
+  display: flex;
+}
+
+.b-1 {
+  flex: 2;
+  margin: 20px;
+}
+
+.b-2 {
+  flex: 1;
+  margin: 20px;
+}
+
+.contact-nfo {
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-style: solid;
+  border-color: #00dbde;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+}
+
+.contact-nfo h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+}
+
