@@ -273,3 +273,12 @@ p {
   border-radius: 50px;
 }
 
+.card1 p {
+  margin-top: 15px;
+  border-color: #00dbde;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 2px;
+  color: black;
+}
+
