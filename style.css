@@ -31,6 +31,11 @@ p {
   line-height: 1.2rem;
 }
 
+hr {
+  color: #00dbde;
+  margin: 60px;
+}
+
 .video {
   margin-top: 40px;
   padding-top: 60px;
@@ -204,16 +209,20 @@ p {
 
 
 .galery {
-  max-width: 1000px;
-  padding: 100px;
+  max-width: 1200px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-color: rgba(223, 223, 223, 0.308);
+  border-radius: 3%;
+  justify-content: center;
 }
 
 .container-g {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .image-g {
@@ -229,3 +238,38 @@ p {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
 
 }
+
+.nav-g {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.logo-g {
+  background-color: rgba(223, 223, 223, 0.308);
+  border-radius: 30%;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.219);
+  z-index: 10;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.logoimg-g {
+  max-height: 200px;
+}
+
+.back-b {
+  height: 100px;
+  background-color: rgba(223, 223, 223, 0.308);
+  width: 900px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.back-b .navbuttons {
+  border-radius: 50px;
+}
+
