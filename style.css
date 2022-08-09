@@ -110,7 +110,7 @@ p {
 .navbuttons:hover {
   border-color: #fc00ff;
   background-color: #f34eeb42;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
 }
 
 .navbuttons:visited {
@@ -284,7 +284,8 @@ p {
 
 .input-wrapp {
   margin-top: 20px;
-  font-family: "Orbitron", sans-serif
+  font-family: "Orbitron", sans-serif;
+  display: flex;
 }
 
 .sub-butt {
@@ -295,11 +296,17 @@ p {
   font-size: 1.2rem;
   font-weight: 400;
   height: 40px;
-  width: 200px;
+  width: 450px;
   border-style: solid;
   border-width: 1px;
   border-radius: 0px 0px 100px 100px;
   margin: 15px;
+}
+
+.sub-butt:hover {
+  border-color: #fc00ff;
+  background-color: #f34eeb42;
+  transition-duration: 0.2s;
 }
 
 form {
@@ -314,6 +321,7 @@ form {
 .b-2 {
   flex: 1;
   margin: 20px;
+  justify-content: left;
 }
 
 .contact-nfo {
@@ -325,8 +333,8 @@ form {
   margin: 20px;
   border-style: solid;
   border-color: #00dbde;
-  border-top-width: 3px;
-  border-bottom-width: 3px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 
 .contact-nfo h1 {
@@ -334,3 +342,31 @@ form {
   font-size: 20px;
 }
 
+input[type=text], input[type=email], textarea {
+  color: rgb(5, 5, 5);
+  font-size: 15px;
+  font-family: "Orbitron", sans-serif;
+  border-style: none;
+  border-radius: 5px;
+  margin: 0px, 20px;
+  padding: 12px 20px;
+  background-color: rgba(223, 223, 223, 0.308);
+}
+
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
+  background-color: rgba(78, 78, 78, 0.308);
+  color: rgb(221, 221, 221);
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  box-shadow: 0px 0px 20px #fc00ff;
+}
+
+#w-name, #w-email {
+  justify-content: right;
+  align-items: center;
+}
+
+#name, #email {
+  width: 60%;
+}
