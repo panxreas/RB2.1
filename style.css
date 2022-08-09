@@ -286,6 +286,7 @@ p {
   margin-top: 20px;
   font-family: "Orbitron", sans-serif;
   display: flex;
+  justify-content: center;
 }
 
 .sub-butt {
@@ -363,10 +364,11 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 #w-name, #w-email {
-  justify-content: right;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 #name, #email {
-  width: 60%;
+  width: 50%;
 }
+
